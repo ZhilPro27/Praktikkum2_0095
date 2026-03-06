@@ -117,7 +117,28 @@ class PraktikumPamLanjut extends StatelessWidget {
             ],
           ),
           SizedBox(height: 50),
-          Row()
+          Row(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              Text(
+                "20230140095",
+                style: TextStyle(
+                  fontSize: 14,
+                  color: Colors.blueGrey.shade300,
+                  fontWeight: FontWeight.w500,
+                ),
+              ),
+              SizedBox(width: 70),
+              Text(
+                "Zhilal Fadiah Krisna",
+                style: TextStyle(
+                  fontSize: 14,
+                  color: Colors.blueGrey.shade300,
+                  fontWeight: FontWeight.w500,
+                ),
+              ),
+            ]
+          )
         ]
       )
     );
