@@ -61,7 +61,11 @@ class PraktikumPamLanjut extends StatelessWidget {
             ),
             child: Padding(
               padding: const EdgeInsets.symmetric(horizontal: 30, vertical: 20),
-              child: Column(),
+              child: Column(
+                children: [
+                  Image(image: AssetImage("public/images/meme.jpg"), width: 300)
+                ],
+              ),
             ),
           )
         ]
