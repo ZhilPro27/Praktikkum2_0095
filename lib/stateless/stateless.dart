@@ -74,6 +74,24 @@ class PraktikumPamLanjut extends StatelessWidget {
             children: [
               OutlinedButton(
                 onPressed: () {},
+                style: OutlinedButton.styleFrom(
+                  fixedSize: Size(150, 50),
+                  backgroundColor: Colors.white,
+                  foregroundColor: Colors.blueGrey.shade800,
+                  elevation: 0,
+                  padding: const EdgeInsets.symmetric(horizontal: 30, vertical: 15),
+                  shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(30),
+                    side: BorderSide(color: Colors.blueGrey.shade300, width: 1),
+                  ),
+                ),
+                child: Text(
+                  "Cancel",
+                  style: TextStyle(
+                    fontSize: 16,
+                    fontWeight: FontWeight.w500,
+                  ),
+                ),
               ),
             ],
           )
