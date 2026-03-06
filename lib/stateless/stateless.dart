@@ -93,6 +93,10 @@ class PraktikumPamLanjut extends StatelessWidget {
                   ),
                 ),
               ),
+              const SizedBox(width: 40),
+              ElevatedButton(
+                onPressed: () {},
+              )
             ],
           )
         ]
