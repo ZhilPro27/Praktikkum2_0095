@@ -46,6 +46,20 @@ class PraktikumPamLanjut extends StatelessWidget {
               fontWeight: FontWeight.w500,
             ),
           ),
+          SizedBox(height: 100),
+          Container(
+            decoration: BoxDecoration(
+              color: Colors.white,
+              borderRadius: BorderRadius.circular(30),
+              boxShadow: [
+                BoxShadow(
+                  color: Colors.black.withOpacity(0.05),
+                  blurRadius: 20,
+                  offset: const Offset(0, 10),
+                )
+              ]
+            ),
+          )
         ]
       )
     );
