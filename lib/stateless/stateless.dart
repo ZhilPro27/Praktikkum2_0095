@@ -23,7 +23,11 @@ class PraktikumPamLanjut extends StatelessWidget {
           )
         ],
       ),
-      body: Column()
+      body: Column(
+        mainAxisAlignment: MainAxisAlignment.start,
+        crossAxisAlignment: CrossAxisAlignment.center,
+        children: []
+      )
     );
   }
 }
