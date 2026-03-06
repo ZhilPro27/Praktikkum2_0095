@@ -6,7 +6,13 @@ class PraktikumPamLanjut extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      
+      backgroundColor: const Color(0xFFF0F4F8),
+      appBar: AppBar(
+        backgroundColor: const Color(0xFFF0F4F8),
+        actions: [
+
+        ],
+      )
     );
   }
 }
