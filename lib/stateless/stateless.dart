@@ -10,7 +10,11 @@ class PraktikumPamLanjut extends StatelessWidget {
       appBar: AppBar(
         backgroundColor: const Color(0xFFF0F4F8),
         actions: [
-
+          IconButton(
+            icon: const Icon(Icons.arrow_back, size: 40),
+            tooltip: "Back",
+            onPressed: (){},
+          )
         ],
       )
     );
