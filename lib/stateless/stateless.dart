@@ -115,7 +115,9 @@ class PraktikumPamLanjut extends StatelessWidget {
                 ),
               )
             ],
-          )
+          ),
+          SizedBox(height: 50),
+          Row()
         ]
       )
     );
