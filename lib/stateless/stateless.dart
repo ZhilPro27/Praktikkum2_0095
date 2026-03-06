@@ -69,7 +69,10 @@ class PraktikumPamLanjut extends StatelessWidget {
             ),
           ),
           SizedBox(height: 80),
-          Row()
+          Row(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [],
+          )
         ]
       )
     );
