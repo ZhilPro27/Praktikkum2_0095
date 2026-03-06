@@ -26,7 +26,18 @@ class PraktikumPamLanjut extends StatelessWidget {
       body: Column(
         mainAxisAlignment: MainAxisAlignment.start,
         crossAxisAlignment: CrossAxisAlignment.center,
-        children: []
+        children: [
+          SizedBox(height: 10),
+          Text(
+            "PRAKTIKUM PAM LANJUT",
+            style: TextStyle(
+              fontSize: 25,
+              color: Colors.black87,
+              fontWeight: FontWeight.bold,
+              
+            ),
+          ),
+        ]
       )
     );
   }
