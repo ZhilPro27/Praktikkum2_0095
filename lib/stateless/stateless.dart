@@ -22,7 +22,8 @@ class PraktikumPamLanjut extends StatelessWidget {
             onPressed: (){},
           )
         ],
-      )
+      ),
+      body: Column()
     );
   }
 }
