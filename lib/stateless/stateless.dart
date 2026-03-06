@@ -71,7 +71,11 @@ class PraktikumPamLanjut extends StatelessWidget {
           SizedBox(height: 80),
           Row(
             mainAxisAlignment: MainAxisAlignment.center,
-            children: [],
+            children: [
+              OutlinedButton(
+                onPressed: () {},
+              ),
+            ],
           )
         ]
       )
