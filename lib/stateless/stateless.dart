@@ -96,6 +96,23 @@ class PraktikumPamLanjut extends StatelessWidget {
               const SizedBox(width: 40),
               ElevatedButton(
                 onPressed: () {},
+                style: ElevatedButton.styleFrom(
+                  fixedSize: Size(150, 50),
+                  backgroundColor: Colors.blue.shade900,
+                  foregroundColor: Colors.white,
+                  elevation: 0,
+                  padding: const EdgeInsets.symmetric(horizontal: 30, vertical: 15),
+                  shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(30),
+                  ),
+                ),
+                child: Text(
+                  "Save",
+                  style: TextStyle(
+                    fontSize: 16,
+                    fontWeight: FontWeight.w500,
+                  ),
+                ),
               )
             ],
           )
