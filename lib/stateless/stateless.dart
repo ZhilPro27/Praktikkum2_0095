@@ -37,6 +37,15 @@ class PraktikumPamLanjut extends StatelessWidget {
               
             ),
           ),
+          SizedBox(height: 10),
+          Text(
+            "Halo Ges",
+            style: TextStyle(
+              fontSize: 18,
+              color: Colors.blueGrey.shade300,
+              fontWeight: FontWeight.w500,
+            ),
+          ),
         ]
       )
     );
