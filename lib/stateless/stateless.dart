@@ -14,6 +14,12 @@ class PraktikumPamLanjut extends StatelessWidget {
             icon: const Icon(Icons.arrow_back, size: 40),
             tooltip: "Back",
             onPressed: (){},
+          ),
+          SizedBox(width: 290),
+          IconButton(
+            icon: const Icon(Icons.settings, size: 40),
+            tooltip: "Home",
+            onPressed: (){},
           )
         ],
       )
